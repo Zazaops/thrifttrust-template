@@ -1,7 +1,8 @@
 {
   "name": "thrifttrust-template",
   "version": "1.0.0",
-  "scripts": {
+  "scripts": {"postinstall": "npm install @vitejs/plugin-react"
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
